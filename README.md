@@ -17,6 +17,20 @@
 ### [download data corpus]
 - IEMOCAP <a href="https://sail.usc.edu/iemocap/">[link]</a>
 <a href="https://link.springer.com/article/10.1007/s10579-008-9076-6">[paper]</a>
+- download IEMOCAP data from its original web-page (license agreement is required)
+
+
+### [preprocessed-data schema (our approach)]
+- for the preprocessing, refer to codes in the "./preprocessing"
+- If you want to download the "preprocessed corpus" from us directly, please send us an email after getting the license from IEMOCAP team.
+- We cannot publish ASR-processed transcription due to the license issue (commercial API), however, we assume that it is moderately easy to extract ASR-transcripts from the audio signal by oneself. (we used google-cloud-speech-api)
+- Examples
+	> MFCC : MFCC features of the audio signal (ex. train_audio_mfcc.npy) <br>
+	> MFCC-SEQN : valid lenght of the sequence of the audio signal (ex. train_seqN.npy)<br>
+	> PROSODY : prosody features of the audio signal (ex. train_audio_prosody.npy) <br>
+	> LABEL : targe label of the audio signal (ex. train_label.npy) <br> 
+	> TRANS : sequences of trasnciption (indexed) of a data (ex. train_nlp_trans.npy) <br>
+
 
 ### [source code]
 - repository contains code for following models
