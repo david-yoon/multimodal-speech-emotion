@@ -50,7 +50,7 @@
 
 
 ### [cite]
-- Please cite our paper, when you use our code | model
+- Please cite our paper, when you use our code | model | dataset
 
   > @article{yoon2018multimodal, <br>
   >  title={Multimodal Speech Emotion Recognition Using Audio and Text}, <br>
