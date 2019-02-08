@@ -5,17 +5,17 @@
 > multimodal-speech-emotion/data/raw/IEMOCAP_full_release <br>
 
 > (pre-trained word embedding) <br>
-> multimodal-speech-emotion/data/raw/embedding/glove.840B.300d.txt
+> multimodal-speech-emotion/data/raw/embedding/glove.840B.300d.txt <br>
 
 
 **process** <br>
 > (run following codes) <br>
-> IEMOCAP_00_extract_label_transcription.ipynb14.5 kB26 minutes ago
-> IEMOCAP_01_wav_to_feature.ipynb25.8 kBa minute ago
-> IEMOCAP_NLP_01_Transcription_to_Index.ipynb9.67 kB2 hours ago
-> IEMOCAP_02_to_four_category.ipynb16.8 kB3 minutes ago
-> IEMOCAP_03_generate_train_dev_test_data.ipynb14.4 kB2 hours ago
-> IEMOCAP_NLP_04_Prepare_Glove.ipynb
+> IEMOCAP_00_extract_label_transcription.ipynb <br>
+> IEMOCAP_01_wav_to_feature.ipynb <br>
+> IEMOCAP_NLP_01_Transcription_to_Index.ipynb <br>
+> IEMOCAP_02_to_four_category.ipynb <br>
+> IEMOCAP_03_generate_train_dev_test_data.ipynb <br>
+> IEMOCAP_NLP_04_Prepare_Glove.ipynb <br>
 
 
 **description**
