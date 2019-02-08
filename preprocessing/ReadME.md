@@ -9,13 +9,13 @@
 
 
 **process** <br>
-> (run following codes) <br> 
-IEMOCAP_00_extract_label_transcription.ipynb14.5 kB26 minutes ago
-IEMOCAP_01_wav_to_feature.ipynb25.8 kBa minute ago
-IEMOCAP_NLP_01_Transcription_to_Index.ipynb9.67 kB2 hours ago
-IEMOCAP_02_to_four_category.ipynb16.8 kB3 minutes ago
-IEMOCAP_03_generate_train_dev_test_data.ipynb14.4 kB2 hours ago
-IEMOCAP_NLP_04_Prepare_Glove.ipynb
+> (run following codes) <br>
+> IEMOCAP_00_extract_label_transcription.ipynb14.5 kB26 minutes ago
+> IEMOCAP_01_wav_to_feature.ipynb25.8 kBa minute ago
+> IEMOCAP_NLP_01_Transcription_to_Index.ipynb9.67 kB2 hours ago
+> IEMOCAP_02_to_four_category.ipynb16.8 kB3 minutes ago
+> IEMOCAP_03_generate_train_dev_test_data.ipynb14.4 kB2 hours ago
+> IEMOCAP_NLP_04_Prepare_Glove.ipynb
 
 
 **description**
