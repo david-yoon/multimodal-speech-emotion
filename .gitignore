@@ -1,8 +1,13 @@
+
+# data
 data/processed
 data/raw
 
 model/graph
 model/save
+
+# test
+*TEST*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
