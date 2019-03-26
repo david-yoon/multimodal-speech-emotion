@@ -50,3 +50,10 @@ N_SEQ_MAX = 750                 # max 1,000 (MSP case only)
 N_SEQ_MAX_NLP = 128
 DIM_WORD_EMBEDDING = 100   # when using glove it goes to 300 automatically
 EMBEDDING_TRAIN = True           # True is better
+
+
+
+################################
+#     ETC
+################################
+IS_LOGGING = False
