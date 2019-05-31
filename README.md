@@ -5,6 +5,8 @@
 
 **Multimodal Speech Emotion Recognition using Audio and Text**, IEEE SLT-18, <a href="https://arxiv.org/abs/1810.04635">[paper]</a>
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/multimodal-speech-emotion-recognition-using/speech-emotion-recognition-on-iemocap)](https://paperswithcode.com/sota/speech-emotion-recognition-on-iemocap?p=multimodal-speech-emotion-recognition-using)
+
 ----------
 
 ### [requirements]
