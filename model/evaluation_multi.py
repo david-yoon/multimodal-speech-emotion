@@ -81,6 +81,14 @@ def run_test(sess, model, batch_gen, data):
         # batch accuracy
         list_pred.extend( np.argmax(bpred, axis=1) )
         list_label.extend( np.argmax(raw_label, axis=1) )
+      
+    
+    if IS_LOGGING:
+        with open( '../analysis/inference_log/mult.txt', 'w' ) as f:
+            f.write( ' '.join( [str(x) for x in list_pred] ) )
+        
+        with open( '../analysis/inference_log/mult_label.txt', 'w' ) as f:
+            f.write( ' '.join( [str(x) for x in list_label] ) )
         
         
     list_batch_correct = [1 for x, y in zip(list_pred,list_label) if x==y]
