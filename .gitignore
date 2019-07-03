@@ -2,6 +2,7 @@
 # data
 data/processed
 data/raw
+*.tar*
 
 model/graph
 model/save
