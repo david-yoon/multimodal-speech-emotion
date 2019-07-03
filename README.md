@@ -51,10 +51,11 @@
 
 ### [cite]
 - Please cite our paper, when you use our code | model | dataset
-
-  > @article{yoon2018multimodal, <br>
-  >  title={Multimodal Speech Emotion Recognition Using Audio and Text}, <br>
-  >  author={Yoon, Seunghyun and Byun, Seokhyun and Jung, Kyomin}, <br>
-  >  journal={arXiv preprint arXiv:1810.04635}, <br>
-  >  year={2018} <br>
+  >   @inproceedings{yoon2018multimodal, <br>
+  >   title={Multimodal Speech Emotion Recognition Using Audio and Text}, <br>
+  >   author={Yoon, Seunghyun and Byun, Seokhyun and Jung, Kyomin}, <br>
+  >  booktitle={2018 IEEE Spoken Language Technology Workshop (SLT)}, <br>
+  >   pages={112--118}, <br>
+  >   year={2018}, <br>
+  >   organization={IEEE} <br>
   > }
