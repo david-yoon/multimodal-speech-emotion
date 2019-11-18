@@ -1,8 +1,13 @@
+# dataset binary
 data/processed
 data/raw
 
+# model binary
 model/graph
 model/save
+
+# for test
+*TEST*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
