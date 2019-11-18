@@ -1,12 +1,13 @@
-# dataset binary
+# data
 data/processed
 data/raw
+*.tar*
 
 # model binary
 model/graph
 model/save
 
-# for test
+# test
 *TEST*
 
 # Byte-compiled / optimized / DLL files
