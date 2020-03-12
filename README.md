@@ -21,6 +21,7 @@
 
 
 ### [preprocessed-data schema (our approach)]
+- <a href="https://forms.gle/4qV4BgXDMz4UoYxe8">Get the preprocessed dataset [application link]</a>
 - for the preprocessing, refer to codes in the "./preprocessing"
 - If you want to download the "preprocessed corpus" from us directly, please send us an email after getting the license from IEMOCAP team.
 - We cannot publish ASR-processed transcription due to the license issue (commercial API), however, we assume that it is moderately easy to extract ASR-transcripts from the audio signal by oneself. (we used google-cloud-speech-api)
