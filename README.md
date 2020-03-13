@@ -22,16 +22,26 @@
 
 ### [preprocessed-data schema (our approach)]
 - <a href="https://forms.gle/4qV4BgXDMz4UoYxe8">Get the preprocessed dataset [application link]</a>
+	>If you want to download the "preprocessed dataset," please ask the license to the IEMOCAP team first.
 - for the preprocessing, refer to codes in the "./preprocessing"
-- If you want to download the "preprocessed corpus" from us directly, please send us an email after getting the license from IEMOCAP team.
 - We cannot publish ASR-processed transcription due to the license issue (commercial API), however, we assume that it is moderately easy to extract ASR-transcripts from the audio signal by oneself. (we used google-cloud-speech-api)
-- Examples
-	> MFCC : MFCC features of the audio signal (ex. train_audio_mfcc.npy) <br>
-	> MFCC-SEQN : valid lenght of the sequence of the audio signal (ex. train_seqN.npy)<br>
-	> PROSODY : prosody features of the audio signal (ex. train_audio_prosody.npy) <br>
-	> LABEL : targe label of the audio signal (ex. train_label.npy) <br> 
-	> TRANS : sequences of trasnciption (indexed) of a data (ex. train_nlp_trans.npy) <br>
 
+- Format of the data for our experiments:<br>
+	> MFCC : MFCC features of the audio signal (ex. train_audio_mfcc.npy) <br>
+	[#samples, 750, 39] - (#sampels, sequencs(max 7.5s), dims) <br>
+
+	> MFCC-SEQN : valid lenght of the sequence of the audio signal (ex. train_seqN.npy)<br>
+	[#samples] - (#sampels) <br>
+	
+	> PROSODY : prosody features of the audio signal (ex. train_audio_prosody.npy) <br>
+	> [#samples, 35] - (#sampels, dims) <br>
+	
+	> TRANS : sequences of trasnciption (indexed) of a data (ex. train_nlp_trans.npy) <br>
+	[#samples, 128] - (#sampels, sequencs(max)) <br>
+
+	> LABEL : targe label of the audio signal (ex. train_label.npy) <br> 
+	[#samples] - (#sampels) <br>
+    
 
 ### [source code]
 - repository contains code for following models
