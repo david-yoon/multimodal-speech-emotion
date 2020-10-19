@@ -14,7 +14,8 @@ from project_config import *
 
 from SE_model_audio import *
 from SE_model_text import *
-from model_util import luong_attention
+# from model_util import luong_attention
+from model_luong_attention import luong_attention
 
 
 class SingleEncoderModelMultiAttn:
@@ -155,11 +156,12 @@ class SingleEncoderModelMultiAttn:
 
         self.attn_audio_final_encoder = tf.matmul(self.model_audio.final_encoder, self.attnM) + self.attnb
         
-        self.final_encoder = luong_attention (
+        self.final_encoder, self.tmp_norm = luong_attention (
                                                 batch_size = self.batch_size,
                                                 target = self.model_text.outputs_en,
                                                 condition = self.attn_audio_final_encoder,
-                                                target_encoder_length = self.model_text.encoder_size,
+                                                batch_seq = self.encoder_seq_text,
+                                                max_len = self.model_text.encoder_size,
                                                 hidden_dim = self.model_text.final_encoder_dimension
                                             )
 

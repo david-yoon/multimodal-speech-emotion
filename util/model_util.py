@@ -60,4 +60,4 @@ def luong_attention( batch_size, target, condition, target_encoder_length, hidde
 
 
 
-    return weighted_sum
+    return weighted_sum, dot, norm_dot
