@@ -15,7 +15,7 @@
 
 
 ### [download data corpus]
-- IEMOCAP <a href="https://sail.usc.edu/iemocap/">[link]</a>
+- IEMOCAP <a href="https://sail.usc.edu/iemocap/iemocap_release.htm">[link]</a>
 <a href="https://link.springer.com/article/10.1007/s10579-008-9076-6">[paper]</a>
 - download IEMOCAP data from its original web-page (license agreement is required)
 
